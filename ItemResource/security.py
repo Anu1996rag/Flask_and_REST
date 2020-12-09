@@ -17,7 +17,7 @@ userid_mapping = {u.id:u for u in users}
 # to verify using username
 def authenticate(username, password):
     user = username_mapping.get(username, None)
-    if user and safe_str_cmp(user.password,password):
+    if user and user.password == password:
         return user
 
 
