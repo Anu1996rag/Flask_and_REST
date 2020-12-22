@@ -1,0 +1,2 @@
+2020-12-22 16:26:35,336 WARNING __main__ Thread-1 : One of the field is left blank
+2020-12-22 16:26:35,349 INFO werkzeug Thread-1 : 127.0.0.1 - - [22/Dec/2020 16:26:35] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
